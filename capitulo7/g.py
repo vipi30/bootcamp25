@@ -6,8 +6,7 @@ notas = [[] for _ in range(1000001)]
 v = [True] * 1000001
 
 for _ in range(q): 
-    linea = sys.stdin.readline()
-    
+    linea = sys.stdin.readline() 
     query = linea.split()
     t = query[0]
     n = int(query[1])
