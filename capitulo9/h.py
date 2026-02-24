@@ -16,7 +16,7 @@ def solve():
             p //= 2 
             izq = 2 * p
             der = 2 * p + 1
-        
+            
             longitud[p] = longitud[izq] + longitud[der]
             
             if maximo[izq] == longitud[izq]:
